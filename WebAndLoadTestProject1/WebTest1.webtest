@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="6130358a-e834-42e5-8858-f0723ed4c4cc" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.d108bc09-57d3-473d-8e18-115e5d2cb025.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="74bdd8e4-9209-4e3b-9d19-aa40186300f3" Version="1.1" Url="http://localhost:61519/" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="e85da4e7-e37c-4dcd-b895-360e00bcb6ed" Version="1.1" Url="http://localhost:61519/" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ea591fe7-efbc-4ac1-bcf4-243c0f023235" Version="1.1" Url="http://localhost:61519/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="850483ba-b7ed-4272-a108-4d5afca3e05f" Version="1.1" Url="http://localhost:61519/Home/About" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="8120f21e-6287-4889-9910-31ae83d80076" Version="1.1" Url="http://localhost:61519/Home/Contact" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Home/About" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="cf9bd7d7-65ba-4ac6-8f6c-8cda9926f2a8" Version="1.1" Url="http://localhost:61519/Grades" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Home/Contact" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e6a636d1-218b-451e-80ce-930153f5bfc3" Version="1.1" Url="http://localhost:61519/Enrolments" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Grades" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="459ae5a5-f90c-4ab8-929d-1d3d6fe5ea8b" Version="1.1" Url="http://localhost:61519/Teams" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Enrolments" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5616f698-fa40-48c8-a63f-7ff5f55fe541" Version="1.1" Url="http://localhost:61519/TeamsUnitTest" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Teams" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4d09363c-3923-4e0f-82d1-4012071909ec" Version="1.1" Url="http://localhost:61519/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/TeamsUnitTest" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c1c8e993-a9e2-4e9c-b8df-a9fa9821d6e1" Version="1.1" Url="http://localhost:61519/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="e87f5aa0-7364-4f99-b8f8-8c157bfd7f9b" Version="1.1" Url="http://localhost:61519/TeamsUnitTest" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="71d762e0-c421-4877-ae70-84d9afcbe9cb" Version="1.1" Url="http://localhost:61519/Teams" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/TeamsUnitTest" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c76cfdce-3ec4-4fbf-a76d-2604dc249034" Version="1.1" Url="http://localhost:61519/Enrolments" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Teams" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e578f608-fcce-43dd-9018-22cb5ab4a30b" Version="1.1" Url="http://localhost:61519/Grades" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Enrolments" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0317cdfc-0907-4961-a085-3174eaa45d5a" Version="1.1" Url="http://localhost:61519/Home/Contact" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Grades" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f3679cc8-1ee2-4ce7-ba08-05c8e7dd9f2d" Version="1.1" Url="http://localhost:61519/Home/About" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Home/Contact" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="33c7e1ec-4a71-444d-b8b9-f96ee0d535d3" Version="1.1" Url="http://localhost:61519/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Home/About" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="fd6f7e96-a260-41bf-a7c6-ea7d5fee9423" Version="1.1" Url="http://localhost:61519/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="390fde51-9725-458b-b52f-5fe4535cfa0a" Version="1.1" Url="http://localhost:61519/TeamsUnitTest" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1ccf0866-fce5-4536-97bf-30f9d8b26faa" Version="1.1" Url="http://localhost:61519/TeamsUnitTest/Create" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/TeamsUnitTest" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ea6eac56-5479-49c5-b391-60d5ab7c6e47" Version="1.1" Url="http://localhost:61519/TeamsUnitTest" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="f742dbf0-a5d7-4400-8b5e-a45df8d7ccc7" Version="1.1" Url="http://localhost:61519/Teams" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/TeamsUnitTest" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="306faac8-1a99-4418-a7c7-ad63737dd1c9" Version="1.1" Url="http://localhost:61519/Teams/Create" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Teams" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="8d41dfa6-ae5d-444b-9cd7-7121dac5351f" Version="1.1" Url="http://localhost:61519/Teams" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/TeamsUnitTest" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d5c80774-4c57-4e05-8d1d-5252f9bd6e92" Version="1.1" Url="http://localhost:61519/Enrolments" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Teams" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b99872ab-0040-480c-bf80-f5f92335b2a8" Version="1.1" Url="http://localhost:61519/Enrolments/Create" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Enrolments" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1d88651b-ef43-473e-9fd5-fa1e1d7f537a" Version="1.1" Url="http://localhost:61519/Enrolments" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Teams" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="69a7be58-72ac-484a-bd54-9e4ec1287e24" Version="1.1" Url="http://localhost:61519/Grades" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Enrolments" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d6bc45ef-717a-4519-b65e-9014938e6a60" Version="1.1" Url="http://localhost:61519/Grades/Create" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Grades" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="cc3dbe13-4d5c-4620-a9f9-0a072c37e468" Version="1.1" Url="http://localhost:61519/Grades" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Enrolments" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="87811e4d-b0b0-4443-8288-e7140804dcf0" Version="1.1" Url="http://localhost:61519/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:61519/Grades" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

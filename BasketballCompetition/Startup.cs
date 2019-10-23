@@ -25,7 +25,11 @@ namespace BasketballCompetition
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+<<<<<<< HEAD
             var connection = @"Server=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\21702969\Documents\GitHub\testing-securecoding\DatabasesC\CompetitionDB.mdf;Integrated Security=True;Connect Timeout=30";
+=======
+            var connection = @"Server=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\21902341\Documents\GitHub\testing-securecoding\DatabasesC\CompetitionDB.mdf;Integrated Security=True;Connect Timeout=30";
+>>>>>>> ac1c7a7c2ca9d78e008eec26f9645383137daca7
             services.AddDbContext<CompetitionDBContext>(options => options.UseSqlServer(connection));
 
         }
